@@ -4,7 +4,6 @@ body {
 
 h1 {
   font-family: "Playfair Display SC", serif;
-
   text-transform: uppercase;
 }
 
@@ -15,4 +14,17 @@ h2 {
 
 h3 {
   font-family: "Playfair Display", serif;
+}
+
+.hero {
+  background-image: url(https://www.pexels.com/uk-ua/photo/macbook-11911060/);
+}
+
+.btn-branding {
+  color: #dee0f4;
+  background-color: #596aca;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
 }
