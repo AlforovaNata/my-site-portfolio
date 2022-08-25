@@ -1,0 +1,18 @@
+body {
+  background-color: #dee0f4;
+}
+
+h1 {
+  font-family: "Playfair Display SC", serif;
+
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+}
