@@ -14,17 +14,47 @@ h2 {
 
 h3 {
   font-family: "Playfair Display", serif;
+  padding: 20px;
+}
+h6 {
+  font-weight: bold;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .hero {
-  background-image: url(https://www.pexels.com/uk-ua/photo/macbook-11911060/);
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.btn-branding {
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+.hero-info {
+  background-color: #9098db;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.btn-outline {
   color: #dee0f4;
-  background-color: #596aca;
+  background-color: rgb(89, 106, 202);
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 19px;
+  line-height: 29px;
   padding: 12px 20px;
+  position: unset;
+  justify-content: center;
+}
+
+.round {
+  border-radius: 10px;
+  width: 50%;
 }
