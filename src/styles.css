@@ -38,6 +38,12 @@ img {
   border-radius: 10px;
 }
 
+i {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
 .hero {
   text-align: left;
   position: sticky;
@@ -108,5 +114,9 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .link-contact {
+    text-align: center;
+    padding: 0;
   }
 }
