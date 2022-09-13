@@ -21,7 +21,6 @@ h1 {
 
 h2 {
   font-family: var(--secondary-font-family);
-  padding: 20px;
 }
 
 h4 {
@@ -35,11 +34,13 @@ p {
   line-height: 30px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .hero {
-  text-align: center;
-  background-image: url("../images/workspace5.jpeg");
-  background-size: cover;
-  padding: 160px 20px;
+  text-align: left;
+  position: sticky;
 }
 
 .hero p {
@@ -57,11 +58,28 @@ p {
   color: #1b1242;
 }
 
+.hero img {
+  position: relative;
+  text-align: center;
+  height: auto;
+}
+
 .centered {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-section {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  line-height: 1.5px;
+  background-color: #9098db;
+  border: 1px solid rgba(242, 246, 245, 0.01);
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 34%) 5px 5px 35px 0;
+  padding: 10px;
 }
 
 .btn-branding {
