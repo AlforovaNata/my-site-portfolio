@@ -38,15 +38,9 @@ img {
   border-radius: 10px;
 }
 
-i {
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
-}
-
 .hero {
-  text-align: left;
-  position: sticky;
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -62,19 +56,6 @@ i {
   line-height: 1.5;
   font-size: 24px;
   color: #1b1242;
-}
-
-.hero img {
-  position: relative;
-  text-align: center;
-  height: auto;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .about-section {
@@ -108,6 +89,41 @@ i {
 
 .project-description {
   padding: 120px 60px;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav {
+  padding: 20px;
+  background-color: rgb(89, 106, 202);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f9f7fe;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #fcb6a2;
 }
 
 @media (max-width: 900) {
